@@ -23,7 +23,7 @@ const getCity = async (cityName) => {
 
 //get weather information
 const getWeather =async(cityKey)=>{
-    const resourceURL =`http://dataservice.accuweather.com/currentconditions/v1/${cityKey}?apikey=${APIkey}`
+    const resourceURL =`https://dataservice.accuweather.com/currentconditions/v1/${cityKey}?apikey=${APIkey}`
 
     const response =await fetch(resourceURL)
     const data = await response.json()
