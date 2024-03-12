@@ -8,7 +8,7 @@ const APIkey = 'dgpnRTOift02lk1Poe11C4Svp28njXdJ'
 // getCity information
 const getCity = async (cityName) => {
 
-    const resourceURL = 'http://dataservice.accuweather.com/locations/v1/cities/search'
+    const resourceURL = 'https://dataservice.accuweather.com/locations/v1/cities/search'
     const query = `?apikey=%09${APIkey}&q=${cityName}`
 
 
