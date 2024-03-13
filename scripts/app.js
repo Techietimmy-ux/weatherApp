@@ -1,3 +1,4 @@
+// just  bunch of query selectors used in this project
 const form = document.querySelector('form')
 const cardDetails = document.querySelector('.details')
 const card = document.querySelector('.card')
@@ -10,7 +11,7 @@ const iconImage = document.querySelector('.icon img')
 
 
 
-//getting user input
+//getting user input and calling the update ui fuction based on the data recieved upon calling the update city function
 form.addEventListener('submit', e => {
 
     e.preventDefault()
